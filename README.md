@@ -1,25 +1,29 @@
-# Node.js / Express
+# Example Node Express
 
-Learn how to deploy an Express API with Ink MCP using a simple prompt.
+A simple Express API example app, ready to deploy.
+
+## Setup
+
+```bash
+npm install
+npm start
+```
+
+The server runs on port 3000.
+
+## Deploy with Ink
+
+Connect the [Ink MCP server](https://docs.ml.ink/quick-start) to your AI agent and prompt:
+
+> Deploy this Express app with Ink.
 
 ## Tutorial
 
-Full step-by-step tutorial: [docs.ml.ink/examples/backend/node-express](https://docs.ml.ink/examples/backend/node-express)
-
-### Prerequisites
-
-- An [Ink](https://ml.ink) account
-- Ink MCP connected to your AI agent ([setup guide](https://docs.ml.ink/quick-start))
-
-### Quick Deploy
-
-1. Connect Ink MCP to your agent
-2. Prompt: "Build a REST API with Express.js that has CRUD endpoints for a "tasks" resource. Use in-memory storage and include input validation."
-3. Prompt: "Deploy with Ink"
+Full tutorial: [docs.ml.ink/examples/backend/node-express](https://docs.ml.ink/examples/backend/node-express)
 
 ## About Ink
 
-[Ink](https://ml.ink) is a deployment platform built for AI agents. Connect the Ink MCP server to any AI coding agent and deploy applications, manage domains, databases, and infrastructure — all through natural language prompts.
+[Ink](https://ml.ink) is a deployment platform built for AI agents.
 
 - **Website**: [ml.ink](https://ml.ink)
 - **Documentation**: [docs.ml.ink](https://docs.ml.ink)
